@@ -35,11 +35,13 @@ const Home = () => {
 				<li></li>
 			</ul>
 			<div className='hero relative h-[calc(100vh)] flex justify-center items-center text-white' id='hero'>
-				<div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
-					<h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-yellow-200 font-extrabold'>{text}</span></h1>
-					<p className='mt-3 text-xl'>I love to learn and build scalable and optimized backend systems.</p>
-				</div>      
-			</div>
+  <div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
+    <h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-yellow-200 font-extrabold'>{text}</span></h1>
+    <p className='mt-3 text-xl'>Hello, I am a cybersecurity professional specializing in SOC management, VAPT, Blue Team operations, and Blockchain security. Passionate about Penetration Testing and SOC analysis. </p>
+    <p className='mt-3 text-xl'>I actively participate in hacking events and am always open to new challenges and collaborations. Feel free to connect to discuss cybersecurity!.</p>
+  </div>
+</div>
+
 			<Footer/>
 		</div>	
 	);
