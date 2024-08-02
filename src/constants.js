@@ -43,7 +43,7 @@ export const services = [
     {
       company: 'Cyber Crime Wing',
       role: 'Cyber Crime Investigator',
-      duration: 'June 2023 - July 2023',
+      duration: 'June 2023 - July 2022',
       logo: '',
       points: [
         'I came to know about the complete routine of the cyber crime investigators.',
@@ -52,6 +52,18 @@ export const services = [
       url: 'https://eservices.tnpolice.gov.in/CCTNSNICSDC/RedirectToNationalCyberCrimeReportingPortal%28NCRP%29'
     }
   ];
+      
+  // constants.js
+
+  export const certificates = [
+    {
+      title: 'Oracle Cloud Infrastructure Certified Foundation Associate',
+      issuingOrganization: 'Oracle',
+    },
+    // Add more certificate objects here
+  ];
+  
+
   
   export const EMAIL_JS_SERVICE_ID = 'service_90wb9t5';
   export const EMAIL_JS_TEMPLATE_ID = 'template_8l87rew';

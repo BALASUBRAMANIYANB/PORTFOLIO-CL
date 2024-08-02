@@ -1,5 +1,5 @@
-import React, { useState ,useEffect} from 'react';
-import { Link,useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,12 +27,13 @@ const Navbar = () => {
           <Link to='/about'>About</Link>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">BALASUBRAMANIYAN</a>
+          <Link to="/">BALASUBRAMANIYAN</Link>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm">
+          <Link to='/certificates'>Certificates</Link>
           <Link to='/projects'>Projects</Link>
           <Link to='/experience'>Experience</Link>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/contact'>Contact</Link> 
         </div>
 
         <div className="sm:hidden">
@@ -47,8 +48,9 @@ const Navbar = () => {
           <ul className="font-medium text-2xl space-y-4">
             <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to='/about' onClick={closeMobileMenu}>About</Link></li>
+            <li><Link to='/certificates' onClick={closeMobileMenu}>Certificates</Link></li>
             <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
-            <li><Link to='/experience' onClick={closeMobileMenu}>Experince</Link></li>
+            <li><Link to='/experience' onClick={closeMobileMenu}>Experience</Link></li>
             <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
           </ul>
         </div>
